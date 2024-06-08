@@ -67,3 +67,13 @@ app.py: Main application script.
 test.py: Testing script.
 Background.png: Background image file.
 README.md: Project documentation.
+
+
+**How to Run**
+
+
+Firstly run add_faces.py , where user is prompted to enter their name, which is associated with the collected face data. The system captures and stores this data for future use in face recognition tasks. 
+
+Then run test.py which captures real-time video, detects faces, recognizes them using a pre-trained model, displays the results, and records attendance data into a file.
+
+Then run app.py where attendace of user is noted in csv file with his name in it, capturing his face in real time video and detecting it using pretrained model.
